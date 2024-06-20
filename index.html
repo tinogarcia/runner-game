@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas></canvas>
+    <button class="button-reset-game" id="button-reset-game" onclick="location.reload()">&#10226;</button>
+    <div class="instructions">
+        <div class="player">
+            JUMP WITH : <kbd id="left-up">&#8593;</kbd> OR <kbd id="left-down">SPACE</kbd>            
+        </div>
+    </div>
+    <img hidden id="sprite" src="./sprite.png" alt="Sprite Player" />
+</body>
+<script src="game.js"></script>
+</html>
